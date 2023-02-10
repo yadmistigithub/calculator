@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	body{
+      background: linear-gradient(57deg, #00c6a7,#1e4d92) ;
+
+	}
+
+.container{
+
+   	height: 475px;
+	width: 286px;
+	position: absolute;
+	left: 35%;
+	overflow: hidden;
+	top: 15%;
+	padding: 1px 11.5px;
+	border: none;
+	border-radius: 20px;
+	background-color:#c3c2ab;
+	box-shadow:  0 25px 60px black, 0 25px 60px black;
+ 
+}
+.display{
+	font-family: Calc;
+	margin-top:1px;
+	margin-left: 3px;
+	font-size: 28px;
+	line-height: 40px;
+	width: 268px;
+	background-color: #BDB76B;
+	color: black;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	text-align: right;
+	letter-spacing: 1px;
+
+	}
+	h1{
+		font-size: 30px;
+		color: black;
+		font-weight: bold;
+		margin-left: 35px;
+		text-shadow: 1px 2px 3px black; 
+	}
+	.c{
+		height: 50px;
+		width: 50px;
+		margin-left: 17%;
+		margin-top: 18%;
+		border: none;
+		color: white;
+		background-color: red;
+		border-radius: 5px;
+		font-size: 30px;
+		box-shadow:0 4px 9px black; 
+	}
+	.c:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+	.divide{
+		height: 50px;
+		width: 50px;
+		font-size: 30px;
+		margin-left:-1%;
+		margin-top: 18%;
+		border: none;
+		color: white;
+		background-color:  #4d4d00;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+	}
+	.divide:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+	.multiply{
+		height: 50px;
+		width: 50px;
+		font-size: 30px;
+		margin-left:-15px;
+		margin-top: 18%;
+		border: none;
+		color: white;
+		background-color:  #4d4d00;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+	}
+	.multiply:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+	.del{
+		height: 50px;
+		width: 50px;
+		font-size: 20px;
+		margin-left:-30px;
+		margin-top: 42%;
+		border: none;
+		color: white;
+		background-color:  #4d4d00;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+}
+    .del:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+	.seven{
+		height: 50px;
+		width: 50px;
+		font-size: 20px;
+		margin-left:17%;
+		margin-top: 12%;
+		border: none;
+		color: white;
+		background-color:  black;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+	}
+	.seven:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+	.eight{
+		height: 50px;
+		width: 50px;
+		font-size: 30px;
+		margin-left:-1%;
+		margin-top: 12%;
+		border: none;
+		color: white;
+		background-color:  black;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+
+	}
+	.eight:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+	.nine{
+		height: 50px;
+		width: 50px;
+		font-size: 30px;
+		margin-left:-20%;
+		margin-top: 12%;
+		border: none;
+		color: white;
+		background-color:  black;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+	}
+	.nine:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+	.subtract{
+		height: 50px;
+		width: 50px;
+		font-size: 20px;
+		margin-left:-30px;
+		margin-top: 40%;
+		border: none;
+		color: white;
+		background-color:  #4d4d00;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+}
+     .subtract:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+	.four{
+		height: 50px;
+		width: 50px;
+		font-size: 20px;
+		margin-left:17%;
+		margin-top: 12%;
+		border: none;
+		color: white;
+		background-color:  black;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+
+	}
+	.four:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+   .five{
+   	   height: 50px;
+		width: 50px;
+		font-size: 30px;
+		margin-left:-1%;
+		margin-top: 12%;
+		border: none;
+		color: white;
+		background-color:  black;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+
+   }
+   .five:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+   .six{
+     	height: 50px;
+		width: 50px;
+		font-size: 30px;
+		margin-left:-20%;
+		margin-top: 12%;
+		border: none;
+		color: white;
+		background-color:  black;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+
+   }
+   .six:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+   .addition{
+   	    height: 50px;
+		width: 50px;
+		font-size: 20px;
+		margin-left:-30px;
+		margin-top: 40%;
+		border: none;
+		color: white;
+		background-color:  #4d4d00;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+   }
+   .addition:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+   .one{
+     	height: 50px;
+		width: 50px;
+		font-size: 20px;
+		margin-left:17%;
+		margin-top: 12%;
+		border: none;
+		color: white;
+		background-color:  black;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+   }
+   .one:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+   .two{
+   	    height: 50px;
+		width: 50px;
+		font-size: 30px;
+		margin-left:-1%;
+		margin-top: 12%;
+		border: none;
+		color: white;
+		background-color:  black;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+   }
+   .two:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+   .three{
+   	    height: 50px;
+		width: 50px;
+		font-size: 30px;
+		margin-left:-20%;
+		margin-top: 12%;
+		border: none;
+		color: white;
+		background-color:  black;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+
+   }
+   .three:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+   .equal{
+   	  height: 115px;
+   	  width: 50px;
+   	  font-size: 20px;
+   	  margin-left:-30px;
+	  margin-top: 30%;
+	  border: none;
+	  color: white;
+	  background-color:  #4d4d00;
+	  border-radius: 5px;
+	  box-shadow:0 4px 9px black;
+
+   }
+   .equal:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+   .braket{
+        height: 50px;
+		width: 50px;
+		font-size: 20px;
+		margin-left:17%;
+		margin-top: 12%;
+		border: none;
+		color: white;
+		background-color:  black;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+
+   }
+   .braket:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+   .zero{
+   	     height: 50px;
+		width: 50px;
+		font-size: 30px;
+		margin-left:-1%;
+		margin-top: 12%;
+		border: none;
+		color: white;
+		background-color:  black;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+   }
+   .zero:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+   .point{
+     	height: 50px;
+		width: 50px;
+		font-size: 30px;
+		margin-left:-20%;
+		margin-top: 12%;
+		border: none;
+		color: white;
+		background-color:  black;
+		border-radius: 5px;
+		box-shadow:0 4px 9px black;
+
+
+   }
+   .point:hover{
+		box-shadow:0 4px 9px white; 
+		cursor: pointer;
+
+	}
+  
+ 
+
+
+	</style>
+
+</head>
+<body>
+	<div class="container">
+
+		<form name="calculator">
+		<table>
+
+
+
+
+			<tr>
+				
+				           <td colspan="4">
+				           	<h1>CALCULATOR</h1>
+					
+                           <input type="text" name="display" class="display" placeholder="0">
+
+				           </td>
+			</tr>
+
+
+
+
+			<tr >
+				          <td>
+					       <input type="reset"  value="C" onclick="calculator.display.value+=')'" class="c">
+				           </td>
+
+
+				           <td>
+					       <input type="button"   value="/" onclick="calculator.display.value+='/'" class="divide">
+				           </td>
+
+
+				           <td>
+					       <input type="button"   value="*" onclick="calculator.display.value+='*'" class="multiply">
+			           	   </td>
+
+
+				           <td>
+					       <input type="reset"  value="DEL" onclick="calculator.display.value+=')'" class="del">
+				           </td>
+
+			</tr>
+
+
+
+			<tr>
+	                       <td>
+					       <input type="button"  value="7" onclick="calculator.display.value+='7'" class="seven">
+				           </td>
+
+			
+				           <td>
+					       <input type="button"  value="8" onclick="calculator.display.value+='8'" class="eight">
+				           </td>
+
+
+				           <td>
+					       <input type="button"  value="9" onclick="calculator.display.value+='9'" class="nine">
+				           </td>
+
+
+				           <td>
+					       <input type="button"   value="-" onclick="calculator.display.value+='-'" class="subtract">
+				           </td>
+		     </tr>
+
+
+
+
+		     <tr>
+		     	           <td>
+					       <input type="button" value="4" onclick="calculator.display.value+='4'" class="four"> 
+			           	   </td>
+
+
+				           <td>
+					       <input type="button"  value="5" onclick="calculator.display.value+='5'" class="five">
+				           </td>
+
+
+				           <td>
+					       <input type="button"  value="6" onclick="calculator.display.value+='6'" class="six">
+				           </td>
+
+
+				           <td>
+					       <input type="button"   value="+" onclick="calculator.display.value+='+'" class="addition">
+				           </td>
+             </tr>
+
+
+
+
+
+             <tr>
+             	           <td>
+					       <input type="button"  value="1" onclick="calculator.display.value+='1'" class="one">
+				           </td>
+
+
+			           	   <td>
+					       <input type="button"  value="2" onclick="calculator.display.value+='2'" class="two">
+				           </td>
+
+
+				           <td>
+					       <input type="button"  value="3" onclick="calculator.display.value+='3'" class="three">
+				           </td>
+
+
+				           <td rowspan="2">
+					       <input type="button" name="doit" value="=" class="equal" onclick="calculator.display.value=eval(calculator.display.value)">
+				           </td>
+
+             </tr>
+
+
+
+
+
+
+             <tr>
+             	           <td>
+					       <input type="button"  value="()" onclick="calculator.display.value+='()'" class="braket">
+				           </td>
+
+                          <td>
+				          <input type="button"  value="0" onclick="calculator.display.value+='0'" class="zero">
+				          </td>
+
+   
+				          <td>
+					      <input type="button"  value="." onclick="calculator.display.value+='.'" class="point">
+				          </td>
+
+
+
+
+
+             </tr>
+         
+
+				
+
+			
+		
+
+	</div>
+</body>
+</html>
